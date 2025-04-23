@@ -1,8 +1,10 @@
 **SQL Task:** 
+
 Create a database and tables to manage a simple e-commerce system. 
 The system should have three tables: customers, orders, and products.
 
 **Database Structure**
+
 The goal of this project is to design and implement a database structure to manage a simple e-commerce system. The system will consist of three tables: customers, orders, and products.
 Each table will serve a distinct role in the management of customer data, product information, and order tracking.
 
@@ -11,6 +13,7 @@ Orders: Tracks orders placed by customers, including the order date and total am
 Products: Contains details about the products available for purchase, including name, price, and description.
 
 **Setup Instructions**
+
 Install MySQL: Ensure you have MySQL installed and running on your system.
 
 Run the SQL Script: Execute the provided SQL script (ecommerce.sql) in your MySQL client. This script will create the database, tables, and insert sample data. You can use any MySQL client, such as MySQL Workbench or the command-line client.
@@ -19,6 +22,7 @@ mysql -u your_username -p < ecommerce.sql
 Replace your_username with your MySQL username.
 
 **SQL Queries**
+
 The SQL script includes the following queries:
 
 1.Retrieve customers with orders in the last 30 days: 
@@ -56,6 +60,7 @@ SQL Task.sql: Contains the SQL script to create the database, tables, insert sam
 README.md: This file, providing project documentation.
 
 **Notes**
+
 The database is normalized by the creation of the order_items table. This helps to prevent data redundancy and improve data integrity.
 The total_amount in the orders table is calculated based on the data in the order_items and products tables.
 Make sure to change the mysql user and password in the command line instruction to match your local setup.
